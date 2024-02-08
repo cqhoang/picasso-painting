@@ -1,9 +1,5 @@
-@media;
-)
-
-.example-class {
-  margin: 0 auto !important;
-  padding: 0 !important;
+@media (max-width: 768px) {
+  div
 }
 
 body {
@@ -49,6 +45,7 @@ body {
 
 .container {
   border: 1px solid;
+  border-width: .5pc;
   border-color: white;
   padding: 10px;
   margin: 10px;
@@ -61,5 +58,5 @@ p {
 }
 
 .grid-container {
-  display: grid;
+  display: grid; 
 }
